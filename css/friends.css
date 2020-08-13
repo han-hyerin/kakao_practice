@@ -1,0 +1,93 @@
+.Page-friends {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Page-friends__column:last-child span {
+  padding-left: 10px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.friends-info {
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.02);
+  width: 100%;
+}
+
+.friends-info__column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.friends-info__column i {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.friends-profile {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.friends-profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+
+.friends-profile span:last-child {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+
+.channel__column {
+  display: flex;
+}
+
+.channel__column:first-child {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+}
+
+.channel__column span:first-child {
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+
+.channel__column img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.channel__column:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-bar {
+  margin-top: 410px;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.03);
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px 27px;
+  width: 100%;
+  bottom: 0;
+}
+
+body {
+  margin: 0 20px;
+}
